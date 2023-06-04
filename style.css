@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    font-size: 3rem;
+}
+
+header {
+    background: lightblue;
+
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+input {
+}
+
+nav {
+    border: 1px solid black;
+    width:100%;
+}
+
+ul {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 3rem;
+}
+input:checked ~ nav{
+    overflow: hidden;
+    height:0;
+}
+
+
